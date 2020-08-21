@@ -1,7 +1,7 @@
 import React from "react";
 import cn from "classnames";
 
-const Tile = ({ id, x, y, value, isNew, isMerged }) => {
+const Tile = ({ x, y, value, isNew, isMerged }) => {
   return (
     <div
       className={cn(`tile tile-${value} tile-position-${x}-${y}`, {
